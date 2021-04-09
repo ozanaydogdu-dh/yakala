@@ -11,8 +11,7 @@ class ViewController: UIViewController {
     
     
     // commit deneme
-    //commit deneme2
-    //deneme3
+    
     
     
     var score = 0
