@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18092"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="yakala" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YD1-uE-ZfJ">
+                                <rect key="frame" x="79" y="65" width="80" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="yQs-RG-HfX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yQ-dY-jHH">
+                                <rect key="frame" x="79" y="737" width="200" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="vmq-TJ-vh2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pikachu" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="As0-AZ-IbG">
+                                <rect key="frame" x="280" y="160" width="80" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="mbr-mU-hY2"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pikachu" translatesAutoresizingMaskIntoConstraints="NO" id="fID-rT-dsC">
+                                <rect key="frame" x="280" y="320" width="80" height="120"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pikachu" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GCu-ho-zE5">
+                                <rect key="frame" x="160" y="160" width="80" height="120"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pikachu" translatesAutoresizingMaskIntoConstraints="NO" id="5un-xk-K2y">
+                                <rect key="frame" x="160" y="480" width="80" height="120"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pikachu" translatesAutoresizingMaskIntoConstraints="NO" id="uk7-IS-kwD">
+                                <rect key="frame" x="48" y="320" width="80" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="tCR-Aw-wjZ"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pikachu" translatesAutoresizingMaskIntoConstraints="NO" id="GDg-2h-gJ9">
+                                <rect key="frame" x="48" y="160" width="80" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="7ly-oF-Uob"/>
+                                    <constraint firstAttribute="height" constant="120" id="QIh-Gd-exg"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pikachu" translatesAutoresizingMaskIntoConstraints="NO" id="k5M-er-NAk">
+                                <rect key="frame" x="280" y="480" width="80" height="120"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pikachu" translatesAutoresizingMaskIntoConstraints="NO" id="qMh-Cg-yol">
+                                <rect key="frame" x="160" y="320" width="80" height="120"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pikachu" translatesAutoresizingMaskIntoConstraints="NO" id="vxH-dT-or7">
+                                <rect key="frame" x="48" y="480" width="80" height="120"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LiE-YI-AAA">
+                                <rect key="frame" x="224" y="65" width="120" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="XtE-Wa-WAh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uk7-IS-kwD" firstAttribute="top" secondItem="GDg-2h-gJ9" secondAttribute="bottom" constant="40" id="1JD-5N-Y1v"/>
+                            <constraint firstItem="GDg-2h-gJ9" firstAttribute="top" secondItem="GCu-ho-zE5" secondAttribute="top" id="2rA-4E-wBL"/>
+                            <constraint firstItem="YD1-uE-ZfJ" firstAttribute="firstBaseline" secondItem="LiE-YI-AAA" secondAttribute="firstBaseline" id="4rc-TY-Oaw"/>
+                            <constraint firstItem="YD1-uE-ZfJ" firstAttribute="leading" secondItem="7yQ-dY-jHH" secondAttribute="leading" id="7xL-wF-zOS"/>
+                            <constraint firstItem="GDg-2h-gJ9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="BfF-fb-Yh6"/>
+                            <constraint firstItem="GDg-2h-gJ9" firstAttribute="leading" secondItem="uk7-IS-kwD" secondAttribute="leading" id="Bgt-H3-ah1"/>
+                            <constraint firstItem="qMh-Cg-yol" firstAttribute="bottom" secondItem="fID-rT-dsC" secondAttribute="bottom" id="CsD-T5-gDf"/>
+                            <constraint firstItem="YD1-uE-ZfJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="79" id="DI1-gS-JdH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7yQ-dY-jHH" secondAttribute="trailing" constant="135" id="EM9-7t-dzY"/>
+                            <constraint firstItem="uk7-IS-kwD" firstAttribute="leading" secondItem="vxH-dT-or7" secondAttribute="leading" id="GAr-lm-edL"/>
+                            <constraint firstItem="5un-xk-K2y" firstAttribute="top" secondItem="k5M-er-NAk" secondAttribute="top" id="HAE-Ra-h76"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="k5M-er-NAk" secondAttribute="bottom" constant="262" id="HEs-Di-5y6"/>
+                            <constraint firstItem="GCu-ho-zE5" firstAttribute="bottom" secondItem="As0-AZ-IbG" secondAttribute="bottom" id="HRb-lW-IJf"/>
+                            <constraint firstItem="YD1-uE-ZfJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="21" id="IV9-NU-DLw"/>
+                            <constraint firstItem="GDg-2h-gJ9" firstAttribute="bottom" secondItem="GCu-ho-zE5" secondAttribute="bottom" id="L4b-ib-pWi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LiE-YI-AAA" secondAttribute="trailing" constant="70" id="LJG-ty-VSM"/>
+                            <constraint firstItem="As0-AZ-IbG" firstAttribute="leading" secondItem="GCu-ho-zE5" secondAttribute="trailing" constant="40" id="LoV-ad-llL"/>
+                            <constraint firstItem="qMh-Cg-yol" firstAttribute="top" secondItem="fID-rT-dsC" secondAttribute="top" id="MaC-2b-1R2"/>
+                            <constraint firstItem="LiE-YI-AAA" firstAttribute="leading" secondItem="YD1-uE-ZfJ" secondAttribute="trailing" constant="65" id="MjG-UF-d85"/>
+                            <constraint firstItem="As0-AZ-IbG" firstAttribute="leading" secondItem="fID-rT-dsC" secondAttribute="leading" id="N50-RB-9y9"/>
+                            <constraint firstItem="uk7-IS-kwD" firstAttribute="top" secondItem="qMh-Cg-yol" secondAttribute="top" id="N97-IS-cyd"/>
+                            <constraint firstItem="GDg-2h-gJ9" firstAttribute="trailing" secondItem="uk7-IS-kwD" secondAttribute="trailing" id="RkJ-jO-Osn"/>
+                            <constraint firstItem="fID-rT-dsC" firstAttribute="leading" secondItem="k5M-er-NAk" secondAttribute="leading" id="SGm-bd-Xya"/>
+                            <constraint firstItem="uk7-IS-kwD" firstAttribute="bottom" secondItem="qMh-Cg-yol" secondAttribute="bottom" id="Sz9-IA-0yt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="As0-AZ-IbG" secondAttribute="trailing" constant="54" id="UNA-Sm-ICF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7yQ-dY-jHH" secondAttribute="bottom" constant="77" id="WHl-FD-1wS"/>
+                            <constraint firstItem="fID-rT-dsC" firstAttribute="trailing" secondItem="k5M-er-NAk" secondAttribute="trailing" id="WZx-1n-afn"/>
+                            <constraint firstItem="GCu-ho-zE5" firstAttribute="trailing" secondItem="qMh-Cg-yol" secondAttribute="trailing" id="X3L-y8-f0N"/>
+                            <constraint firstItem="qMh-Cg-yol" firstAttribute="leading" secondItem="5un-xk-K2y" secondAttribute="leading" id="fpi-qH-jnZ"/>
+                            <constraint firstItem="vxH-dT-or7" firstAttribute="bottom" secondItem="5un-xk-K2y" secondAttribute="bottom" id="jTQ-CC-4ZQ"/>
+                            <constraint firstItem="vxH-dT-or7" firstAttribute="top" secondItem="uk7-IS-kwD" secondAttribute="bottom" constant="40" id="k1h-t4-p5U"/>
+                            <constraint firstItem="As0-AZ-IbG" firstAttribute="trailing" secondItem="fID-rT-dsC" secondAttribute="trailing" id="m4J-18-woR"/>
+                            <constraint firstItem="vxH-dT-or7" firstAttribute="top" secondItem="5un-xk-K2y" secondAttribute="top" id="ndi-Jf-KPv"/>
+                            <constraint firstItem="GDg-2h-gJ9" firstAttribute="top" secondItem="YD1-uE-ZfJ" secondAttribute="bottom" constant="47" id="ny4-hz-wES"/>
+                            <constraint firstItem="GCu-ho-zE5" firstAttribute="top" secondItem="LiE-YI-AAA" secondAttribute="bottom" constant="59" id="oiu-Cl-Y0f"/>
+                            <constraint firstItem="5un-xk-K2y" firstAttribute="bottom" secondItem="k5M-er-NAk" secondAttribute="bottom" id="qI5-tl-PO5"/>
+                            <constraint firstItem="GCu-ho-zE5" firstAttribute="leading" secondItem="GDg-2h-gJ9" secondAttribute="trailing" constant="32" id="row-Ys-Lvx"/>
+                            <constraint firstItem="GCu-ho-zE5" firstAttribute="top" secondItem="As0-AZ-IbG" secondAttribute="top" id="tHW-Hx-HAr"/>
+                            <constraint firstItem="qMh-Cg-yol" firstAttribute="trailing" secondItem="5un-xk-K2y" secondAttribute="trailing" id="trO-57-WhM"/>
+                            <constraint firstItem="uk7-IS-kwD" firstAttribute="trailing" secondItem="vxH-dT-or7" secondAttribute="trailing" id="uzu-SQ-dA3"/>
+                            <constraint firstItem="GCu-ho-zE5" firstAttribute="leading" secondItem="qMh-Cg-yol" secondAttribute="leading" id="yv3-AB-rD0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="highScoreLabel" destination="7yQ-dY-jHH" id="ZqA-UF-zBN"/>
+                        <outlet property="pikachu1" destination="As0-AZ-IbG" id="8br-28-M77"/>
+                        <outlet property="pikachu2" destination="GCu-ho-zE5" id="3vd-ug-nOJ"/>
+                        <outlet property="pikachu3" destination="fID-rT-dsC" id="kXP-fy-cXq"/>
+                        <outlet property="pikachu4" destination="uk7-IS-kwD" id="DXI-Oi-KlM"/>
+                        <outlet property="pikachu5" destination="GDg-2h-gJ9" id="45S-Da-L84"/>
+                        <outlet property="pikachu6" destination="qMh-Cg-yol" id="W40-6V-ggA"/>
+                        <outlet property="pikachu7" destination="vxH-dT-or7" id="fVs-ox-jwz"/>
+                        <outlet property="pikachu8" destination="5un-xk-K2y" id="Ffl-Mv-2ys"/>
+                        <outlet property="pikachu9" destination="k5M-er-NAk" id="mbO-LM-IbB"/>
+                        <outlet property="scoreLabel" destination="LiE-YI-AAA" id="eug-Tn-GkI"/>
+                        <outlet property="timeLabel" destination="YD1-uE-ZfJ" id="hjY-BR-eVX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="712" y="91"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pikachu" width="472" height="700"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
