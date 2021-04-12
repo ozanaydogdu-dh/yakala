@@ -60,7 +60,7 @@ class ViewController: UIViewController {
         }
         
         
-        // Görsellere dokunabilmek için
+       
         pikachu1.isUserInteractionEnabled = true
         pikachu2.isUserInteractionEnabled = true
         pikachu3.isUserInteractionEnabled = true
