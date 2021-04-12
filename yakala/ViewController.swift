@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    //test
+    
     
     
     
@@ -21,8 +21,8 @@ class ViewController: UIViewController {
     var counter = 0
     var pikachuArray = [UIImageView]()
     var hideTimer = Timer()
-
-    // Görsel ve Label'lar
+    
+    
     @IBOutlet weak var timeLabel: UILabel!
     
     @IBOutlet weak var scoreLabel: UILabel!
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        
         scoreLabel.text =  "Score: \(score)"
         
         
@@ -109,10 +109,10 @@ class ViewController: UIViewController {
     
     @objc func hidePikachu (){
         for pikachu in pikachuArray{
-        pikachu.isHidden = true
+            pikachu.isHidden = true
         }
         
-       let random = Int(arc4random_uniform(UInt32(pikachuArray.count-1)))
+        let random = Int(arc4random_uniform(UInt32(pikachuArray.count-1)))
         pikachuArray[random].isHidden = false
     }
     
@@ -141,7 +141,7 @@ class ViewController: UIViewController {
             hideTimer.invalidate()
             
             for pikachu in pikachuArray{
-            pikachu.isHidden = true
+                pikachu.isHidden = true
             }
             
             
@@ -174,25 +174,25 @@ class ViewController: UIViewController {
                 
                 
             }
-          
+            
             
             alert.addAction(okButton)
             alert.addAction(replayButton)
             self.present(alert, animated: true, completion: nil)
             
         }
-        }
-        }
-        
-        
-        
-    
+    }
+}
 
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
 
 
 
